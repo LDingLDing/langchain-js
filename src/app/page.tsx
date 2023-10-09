@@ -1,7 +1,20 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+// import { OpenAI } from "langchain/llms/openai";
+
 export default function Home() {
+  // const llm = new OpenAI({
+  //   modelName: "text-davinci-003",
+  //   maxTokens: 200,
+  //   openAIApiKey: "sk-8QFK4X63Do7ohycEjFXjsCh6oJ3HyuKFxjZf4iELVb0QNk6H",
+  //   openaiApiBase: "https://api.closeai-asia.com/v1",
+  // });
+
+  // const text = llm.call("请给我写一句情人节红玫瑰的中文宣传语");
+
+  // console.log("#1", text);
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -15,7 +28,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -91,5 +104,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
