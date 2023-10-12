@@ -1,4 +1,3 @@
-/** @format */
 import { OpenAI } from "langchain/llms/openai";
 import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
 

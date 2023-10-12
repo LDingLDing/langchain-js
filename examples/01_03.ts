@@ -1,20 +1,21 @@
-/** @format */
-import { OpenAI } from "langchain/llms/openai";
 import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { OpenAI } from "langchain/llms/openai";
 
 export async function func() {
-  const llm = new OpenAI(
+  const openai = new OpenAI(
     {
       modelName: "text-davinci-003",
-      maxTokens: 200,
+      temperature: 0.8,
+      maxTokens: 60,
     },
     {
       apiKey: getOpenAIKey(),
       baseURL: getOpenAIBaseURL(),
     }
   );
-  const text = await llm.call("请给我写一句情人节红玫瑰的中文宣传语");
-  return text;
+
+  const response = await openai.predict("请给我的花店起个名字");
+  return response;
 }
 
 export default func;

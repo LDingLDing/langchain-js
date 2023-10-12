@@ -1,9 +1,9 @@
 /** @format */
 
 export function getOpenAIKey() {
-  return process.env.OPENAI_KEY;
+  return process.env.OPENAI_API_KEY;
 }
 
 export function getOpenAIBaseURL() {
-  return process.env.OPENAI_BASE_URL;
+  return process.env.OPENAI_API_BASE;
 }
