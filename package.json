@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@huggingface/inference": "^1.5.1",
+    "@qdrant/js-client-rest": "^1.6.0",
+    "csv-stringify": "^6.4.4",
     "langchain": "^0.0.160",
     "next": "13.5.4",
     "openai": "^4.12.1",
