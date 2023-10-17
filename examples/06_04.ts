@@ -1,10 +1,11 @@
-// 使用的模型 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+// 使用的模型 https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/tree/main
+// 机器比较慢，大概需要 5 分钟左右
 
 import { LlamaCpp } from "langchain/llms/llama_cpp";
 import path from "path";
 
 export async function func() {
-  const modelPath = path.join("models", "./llama-2-7b-chat.ggmlv3.q4_K_S.bin");
+  const modelPath = path.resolve("models", "./llama-2-7b-chat.Q2_K.gguf");
 
   const model = new LlamaCpp({ modelPath });
 
