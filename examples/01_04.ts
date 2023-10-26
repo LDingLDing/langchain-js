@@ -1,4 +1,4 @@
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 import { ChatOpenAI } from "langchain/chat_models/openai";
 import { HumanMessage, SystemMessage } from "langchain/schema";
 

@@ -1,6 +1,6 @@
 import { PromptTemplate } from "langchain/prompts";
 import { OpenAI } from "langchain/llms/openai";
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 
 export async function func() {
   // 创建LangChain提示模板

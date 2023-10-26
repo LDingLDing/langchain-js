@@ -1,4 +1,4 @@
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 

@@ -1,7 +1,7 @@
 import { PromptTemplate } from "langchain/prompts";
 import { HuggingFaceInference } from "langchain/llms/hf";
 import { LLMChain } from "langchain/chains";
-import { getHuggingFaceToken } from "@/app/libs/settings";
+import { getHuggingFaceToken } from "@/libs/settings";
 
 export async function func() {
   const llm = new HuggingFaceInference({

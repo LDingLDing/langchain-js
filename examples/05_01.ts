@@ -4,7 +4,7 @@ import {
   HumanMessagePromptTemplate,
   SystemMessagePromptTemplate,
 } from "langchain/prompts";
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 
 export async function func() {
   // 创建聊天模型

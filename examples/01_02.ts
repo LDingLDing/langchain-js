@@ -1,4 +1,4 @@
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 import OpenAI from "openai";
 
 export async function func() {

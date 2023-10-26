@@ -1,4 +1,4 @@
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 import { OpenAIChat } from "langchain/llms/openai";
 import {
   OutputFixingParser,

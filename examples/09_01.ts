@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 import {
   ConversationChain,
   LLMChain,

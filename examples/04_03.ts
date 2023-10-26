@@ -9,7 +9,7 @@ import { OpenAI } from "langchain/llms/openai";
 import { SemanticSimilarityExampleSelector } from "langchain/prompts";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { QdrantVectorStore } from "langchain/vectorstores/qdrant";
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 
 export async function func() {
   // 创建一些示例

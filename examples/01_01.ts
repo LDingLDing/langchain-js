@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 
 export async function func() {
   const openai = new OpenAI({

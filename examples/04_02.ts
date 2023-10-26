@@ -4,7 +4,7 @@ import {
   ChatPromptTemplate,
 } from "langchain/prompts";
 import { OpenAIChat } from "langchain/llms/openai";
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 
 export async function func() {
   // 模板的构建

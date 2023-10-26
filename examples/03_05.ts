@@ -5,7 +5,7 @@ import { stringify } from "csv-stringify/sync";
 import fs from "fs";
 import path from "path";
 
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 
 export async function func() {
   // 数据准备

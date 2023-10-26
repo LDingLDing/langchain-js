@@ -1,4 +1,4 @@
-import { getOpenAIBaseURL, getOpenAIKey } from "@/app/libs/settings";
+import { getOpenAIBaseURL, getOpenAIKey } from "@/libs/settings";
 import { ConversationChain } from "langchain/chains";
 import { OpenAI } from "langchain/llms/openai";
 import { ConversationSummaryMemory } from "langchain/memory";
