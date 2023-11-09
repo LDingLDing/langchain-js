@@ -5,6 +5,11 @@ import { editor } from "monaco-editor";
 import styles from "./index.module.css";
 import exampleList from "@/data/examples";
 
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <div style={{ height: "2000px" }}></div>
+    </>
+  );
 }
