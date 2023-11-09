@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import func from "@Exp/00_01";
+import func from "@Exp/02_01";
 
 export default async function handle(
   req: NextApiRequest,
